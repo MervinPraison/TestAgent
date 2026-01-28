@@ -132,6 +132,29 @@ cython_debug/
 ehthumbs.db
 Thumbs.db
 
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# TypeScript build output
+dist/
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+
+# Lockfiles (optional - uncomment if you want to ignore)
+# package-lock.json
+# pnpm-lock.yaml
+# yarn.lock
+
+# Turbo
+.turbo/
+
 # Project specific
 *.local
 .env.*
