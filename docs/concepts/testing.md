@@ -9,7 +9,7 @@ graph TB
         C[Criteria] --> B
         D[Expected] --> B
         B --> E[Score]
-        E --> F{≥ Threshold?}
+        E --> F{"Score >= Threshold?"}
         F -->|Yes| G[Pass]
         F -->|No| H[Fail]
     end

@@ -5,11 +5,11 @@ pytest-like decorators for AI tests.
 ```mermaid
 graph LR
     subgraph "Mark Decorators"
-        A[@mark.criteria] --> B[Test with criteria]
-        C[@mark.accuracy] --> D[Test accuracy]
-        E[@mark.skip] --> F[Skip test]
-        G[@mark.skipif] --> H[Conditional skip]
-        I[@mark.xfail] --> J[Expected failure]
+        A["@mark.criteria"] --> B[Test with criteria]
+        C["@mark.accuracy"] --> D[Test accuracy]
+        E["@mark.skip"] --> F[Skip test]
+        G["@mark.skipif"] --> H[Conditional skip]
+        I["@mark.xfail"] --> J[Expected failure]
     end
     
     classDef decorator fill:#6366F1,stroke:#7C90A0,color:#fff

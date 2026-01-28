@@ -5,7 +5,7 @@ Data-driven testing with multiple inputs.
 ```mermaid
 graph TB
     subgraph "Parametrize Flow"
-        A[@mark.parametrize] --> B[Test Function]
+        A["@mark.parametrize"] --> B[Test Function]
         C[Input 1] --> B
         D[Input 2] --> B
         E[Input 3] --> B
