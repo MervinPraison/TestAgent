@@ -9,13 +9,17 @@ TestAgent is a simple, pytest-like AI testing framework powered by [PraisonAI Ag
 
 ## Installation
 
-```bash
-# Using uv (recommended)
-uv add testagent
+=== "Python"
 
-# Using pip
-pip install testagent
-```
+    ```bash
+    pip install testagent
+    ```
+
+=== "Node.js / TypeScript"
+
+    ```bash
+    npm install aitestagent
+    ```
 
 ## Quick Start
 
@@ -361,3 +365,27 @@ Contributions welcome! Please read our contributing guidelines first.
 
 - [PraisonAI](https://github.com/MervinPraison/PraisonAI)
 - [Documentation](https://docs.praison.ai)
+
+---
+
+## TypeScript / Node.js
+
+TestAgent is also available for TypeScript and Node.js as `aitestagent`:
+
+```bash
+npm install aitestagent
+```
+
+```typescript
+import { test, accuracy, criteria } from 'aitestagent';
+
+// Test with criteria
+const result = await test("Hello!", { criteria: "is friendly" });
+console.log(result.passed);  // true
+
+// Accuracy test  
+const acc = await accuracy("4", "4");
+console.log(acc.score);      // 10
+```
+
+[Full TypeScript Documentation →](https://mervinpraison.github.io/TestAgent/typescript/)

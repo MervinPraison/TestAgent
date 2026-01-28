@@ -29,6 +29,17 @@ graph LR
     assert result.passed
     ```
 
+=== "TypeScript"
+
+    ```typescript
+    import { test } from 'aitestagent';
+    
+    const result = await test("The capital of France is Paris", {
+      criteria: "factually correct"
+    });
+    console.log(result.passed);
+    ```
+
 === "CLI"
 
     ```bash
