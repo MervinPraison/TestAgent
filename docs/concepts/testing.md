@@ -5,13 +5,13 @@ TestAgent uses AI to evaluate outputs against criteria or expected values.
 ```mermaid
 graph TB
     subgraph "AI Testing Flow"
-        A[📝 Output] --> B[🤖 AI Judge]
-        C[📋 Criteria] --> B
-        D[✓ Expected] --> B
-        B --> E[📊 Score]
+        A[Output] --> B[AI Judge]
+        C[Criteria] --> B
+        D[Expected] --> B
+        B --> E[Score]
         E --> F{≥ Threshold?}
-        F -->|Yes| G[✅ Pass]
-        F -->|No| H[❌ Fail]
+        F -->|Yes| G[Pass]
+        F -->|No| H[Fail]
     end
     
     classDef input fill:#6366F1,stroke:#7C90A0,color:#fff

@@ -5,10 +5,10 @@ Cache LLM responses to reduce costs and improve speed.
 ```mermaid
 graph LR
     subgraph "Caching Flow"
-        A[📝 Request] --> B{🔍 Cache?}
-        B -->|Hit| C[⚡ Return]
-        B -->|Miss| D[🤖 LLM]
-        D --> E[💾 Store]
+        A[Request] --> B{Cache?}
+        B -->|Hit| C[Return]
+        B -->|Miss| D[LLM]
+        D --> E[Store]
         E --> C
     end
     

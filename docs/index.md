@@ -5,8 +5,8 @@
 ```mermaid
 graph LR
     subgraph "TestAgent Flow"
-        A[📝 Output] --> B[🤖 AI Judge]
-        B --> C[✅ Result]
+        A[Output] --> B[AI Judge]
+        B --> C[Result]
     end
     
     classDef input fill:#6366F1,stroke:#7C90A0,color:#fff

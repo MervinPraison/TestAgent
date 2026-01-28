@@ -5,10 +5,10 @@ Discover and collect tests without running them.
 ```mermaid
 graph TB
     subgraph "Discovery Flow"
-        A[📁 Directory] --> B[🔍 Collector]
+        A[Directory] --> B[Collector]
         B --> C[📄 test_*.py]
-        C --> D[🧪 test_* functions]
-        D --> E[📋 TestAgentItem]
+        C --> D[test_* functions]
+        D --> E[TestAgentItem]
     end
     
     classDef input fill:#6366F1,stroke:#7C90A0,color:#fff

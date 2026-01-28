@@ -5,10 +5,10 @@ Get started with TestAgent in under 5 minutes.
 ```mermaid
 graph LR
     subgraph "Your First Test"
-        A[📝 Your Output] --> B[🤖 test]
-        B --> C{✅ Passed?}
-        C -->|Yes| D[🎉 Success]
-        C -->|No| E[🔍 Review]
+        A[Your Output] --> B[test]
+        B --> C{Passed?}
+        C -->|Yes| D[Success]
+        C -->|No| E[Review]
     end
     
     classDef input fill:#6366F1,stroke:#7C90A0,color:#fff
