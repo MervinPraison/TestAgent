@@ -6,7 +6,6 @@ repo_name: MervinPraison/TestAgent
 
 theme:
   name: material
-  custom_dir: docs/overrides
   palette:
     - scheme: default
       primary: custom
@@ -38,7 +37,6 @@ theme:
     - content.code.annotate
     - content.tabs.link
     - toc.follow
-    - header.autohide
   icon:
     repo: fontawesome/brands/github
     logo: material/lightning-bolt
