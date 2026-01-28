@@ -6,7 +6,7 @@ Discover and collect tests without running them.
 graph TB
     subgraph "Discovery Flow"
         A[Directory] --> B[Collector]
-        B --> C[📄 test_*.py]
+        B --> C["test_*.py"]
         C --> D[test_* functions]
         D --> E[TestAgentItem]
     end
