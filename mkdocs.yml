@@ -107,3 +107,8 @@ nav:
   - Examples:
     - Basic Examples: examples/basic.md
     - Advanced Examples: examples/advanced.md
+  - TypeScript SDK:
+    - Overview: typescript/index.md
+    - API Reference: typescript/api.md
+    - CLI Usage: typescript/cli.md
+    - Examples: typescript/examples.md
