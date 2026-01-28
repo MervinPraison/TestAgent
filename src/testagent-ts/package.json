@@ -1,0 +1,53 @@
+{
+    "name": "aitestagent",
+    "version": "0.1.0",
+    "description": "The world's easiest way to test anything using AI",
+    "type": "module",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "bin": {
+        "aitestagent": "./dist/cli.js"
+    },
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "tsup",
+        "dev": "tsup --watch",
+        "test": "vitest",
+        "lint": "eslint src",
+        "typecheck": "tsc --noEmit"
+    },
+    "keywords": [
+        "ai",
+        "testing",
+        "llm",
+        "evaluation",
+        "judge"
+    ],
+    "author": "Mervin Praison",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MervinPraison/TestAgent"
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "dependencies": {
+        "praisonai": "^1.0.21"
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "tsup": "^8.0.0",
+        "typescript": "^5.3.0",
+        "vitest": "^1.0.0"
+    }
+}
