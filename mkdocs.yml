@@ -5,7 +5,7 @@ repo_url: https://github.com/MervinPraison/TestAgent
 repo_name: MervinPraison/TestAgent
 
 theme:
-  name: material
+  name: !ENV [PRAISONAI_THEME, material]
   palette:
     - scheme: default
       primary: custom
