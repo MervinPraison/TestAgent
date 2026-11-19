@@ -14,7 +14,7 @@ site:
     mode: system
   description: The world's easiest way to test anything using AI
 seo:
-  siteUrl: https://mervinpraison.github.io/TestAgent
+  siteUrl: https://testagent.praison.ai
 navigation:
   tabs:
   - tab: Docs
