@@ -9,8 +9,9 @@ site:
   title: TestAgent Automation
   ui: shadcn
   theme:
-    preset: zinc
-    darkMode: true
+    preset: paper
+    radius: md
+    mode: system
   description: The world's easiest way to test anything using AI
 seo:
   siteUrl: https://mervinpraison.github.io/TestAgent
