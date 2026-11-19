@@ -17,29 +17,26 @@ seo:
   siteUrl: https://mervinpraison.github.io/TestAgent
 navigation:
   tabs:
-  - tab: Home
+  - tab: Docs
     groups:
-    - group: Home
+    - group: Get started
       pages:
       - index
-  - tab: Getting Started
-    groups:
+      icon: rocket
     - group: Getting Started
       pages:
       - getting-started/installation
       - getting-started/quickstart
       - getting-started/cli
+      icon: rocket
       prefix: getting-started
-  - tab: Core Concepts
-    groups:
     - group: Core Concepts
       pages:
       - concepts/testing
       - concepts/results
       - concepts/configuration
+      icon: book-open
       prefix: concepts
-  - tab: Features
-    groups:
     - group: Features
       pages:
       - features/assertions
@@ -51,33 +48,35 @@ navigation:
       - features/timing
       - features/discovery
       - features/parallel
+      icon: book-open
       prefix: features
-  - tab: API Reference
-    groups:
     - group: API Reference
       pages:
       - api/core
       - api/assertions
       - api/decorators
       - api/cli
+      icon: terminal
       prefix: api
-  - tab: Examples
-    groups:
     - group: Examples
       pages:
       - examples/basic
       - examples/advanced
+      icon: code
       prefix: examples
-  - tab: TypeScript SDK
-    groups:
     - group: TypeScript SDK
       pages:
       - typescript/index
       - typescript/api
       - typescript/cli
       - typescript/examples
+      icon: book-open
       prefix: typescript
 navbar:
+  primary:
+    type: button
+    label: Quick start
+    href: /docs/getting-started/installation
   links:
   - label: GitHub
     href: https://github.com/MervinPraison/TestAgent
@@ -93,6 +92,8 @@ content:
     include:
     - '**/*.md'
     - '**/*.mdx'
+    nav:
+      mode: manual
 templates:
   docs:
     layout: ThreeColumnLayout

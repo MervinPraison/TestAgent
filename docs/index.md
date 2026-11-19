@@ -1,3 +1,18 @@
+---
+layout: home
+title: TestAgent Automation
+description: The world's easiest way to test anything using AI
+hero:
+  name: TestAgent Automation
+  text: TestAgent Automation
+  tagline: The world's easiest way to test anything using AI
+  actions:
+  - text: Quick start
+    link: getting-started/installation.md
+  - text: View on GitHub
+    link: https://github.com/MervinPraison/TestAgent
+    theme: alt
+---
 # TestAgent
 
 **The world's easiest way to test anything using AI.**
